@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37894BCE1D2D5B4800965312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37894BCD1D2D5B4800965312 /* AppDelegate.swift */; };
+		37894BD01D2D5B4800965312 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 37894BCF1D2D5B4800965312 /* GameScene.sks */; };
+		37894BD21D2D5B4800965312 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37894BD11D2D5B4800965312 /* GameScene.swift */; };
+		37894BD41D2D5B4800965312 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37894BD31D2D5B4800965312 /* GameViewController.swift */; };
+		37894BD71D2D5B4800965312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37894BD51D2D5B4800965312 /* Main.storyboard */; };
+		37894BD91D2D5B4800965312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37894BD81D2D5B4800965312 /* Assets.xcassets */; };
+		37894BDC1D2D5B4800965312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37894BDA1D2D5B4800965312 /* LaunchScreen.storyboard */; };
+		37894BE71D2D5B4800965312 /* EdgyboyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37894BE61D2D5B4800965312 /* EdgyboyTests.swift */; };
+		37894BF21D2D5B4800965312 /* EdgyboyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37894BF11D2D5B4800965312 /* EdgyboyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37894BE31D2D5B4800965312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37894BC21D2D5B4800965312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37894BC91D2D5B4800965312;
+			remoteInfo = Edgyboy;
+		};
+		37894BEE1D2D5B4800965312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37894BC21D2D5B4800965312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37894BC91D2D5B4800965312;
+			remoteInfo = Edgyboy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37894BCA1D2D5B4800965312 /* Edgyboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edgyboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37894BCD1D2D5B4800965312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37894BCF1D2D5B4800965312 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		37894BD11D2D5B4800965312 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		37894BD31D2D5B4800965312 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		37894BD61D2D5B4800965312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37894BD81D2D5B4800965312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37894BDB1D2D5B4800965312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37894BDD1D2D5B4800965312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37894BE21D2D5B4800965312 /* EdgyboyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdgyboyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37894BE61D2D5B4800965312 /* EdgyboyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgyboyTests.swift; sourceTree = "<group>"; };
+		37894BE81D2D5B4800965312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37894BED1D2D5B4800965312 /* EdgyboyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdgyboyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37894BF11D2D5B4800965312 /* EdgyboyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgyboyUITests.swift; sourceTree = "<group>"; };
+		37894BF31D2D5B4800965312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37894BC71D2D5B4800965312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37894BDF1D2D5B4800965312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37894BEA1D2D5B4800965312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37894BC11D2D5B4800965312 = {
+			isa = PBXGroup;
+			children = (
+				37894BCC1D2D5B4800965312 /* Edgyboy */,
+				37894BE51D2D5B4800965312 /* EdgyboyTests */,
+				37894BF01D2D5B4800965312 /* EdgyboyUITests */,
+				37894BCB1D2D5B4800965312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37894BCB1D2D5B4800965312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37894BCA1D2D5B4800965312 /* Edgyboy.app */,
+				37894BE21D2D5B4800965312 /* EdgyboyTests.xctest */,
+				37894BED1D2D5B4800965312 /* EdgyboyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37894BCC1D2D5B4800965312 /* Edgyboy */ = {
+			isa = PBXGroup;
+			children = (
+				37894BCD1D2D5B4800965312 /* AppDelegate.swift */,
+				37894BCF1D2D5B4800965312 /* GameScene.sks */,
+				37894BD11D2D5B4800965312 /* GameScene.swift */,
+				37894BD31D2D5B4800965312 /* GameViewController.swift */,
+				37894BD51D2D5B4800965312 /* Main.storyboard */,
+				37894BD81D2D5B4800965312 /* Assets.xcassets */,
+				37894BDA1D2D5B4800965312 /* LaunchScreen.storyboard */,
+				37894BDD1D2D5B4800965312 /* Info.plist */,
+			);
+			path = Edgyboy;
+			sourceTree = "<group>";
+		};
+		37894BE51D2D5B4800965312 /* EdgyboyTests */ = {
+			isa = PBXGroup;
+			children = (
+				37894BE61D2D5B4800965312 /* EdgyboyTests.swift */,
+				37894BE81D2D5B4800965312 /* Info.plist */,
+			);
+			path = EdgyboyTests;
+			sourceTree = "<group>";
+		};
+		37894BF01D2D5B4800965312 /* EdgyboyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37894BF11D2D5B4800965312 /* EdgyboyUITests.swift */,
+				37894BF31D2D5B4800965312 /* Info.plist */,
+			);
+			path = EdgyboyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37894BC91D2D5B4800965312 /* Edgyboy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37894BF61D2D5B4800965312 /* Build configuration list for PBXNativeTarget "Edgyboy" */;
+			buildPhases = (
+				37894BC61D2D5B4800965312 /* Sources */,
+				37894BC71D2D5B4800965312 /* Frameworks */,
+				37894BC81D2D5B4800965312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Edgyboy;
+			productName = Edgyboy;
+			productReference = 37894BCA1D2D5B4800965312 /* Edgyboy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37894BE11D2D5B4800965312 /* EdgyboyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37894BF91D2D5B4800965312 /* Build configuration list for PBXNativeTarget "EdgyboyTests" */;
+			buildPhases = (
+				37894BDE1D2D5B4800965312 /* Sources */,
+				37894BDF1D2D5B4800965312 /* Frameworks */,
+				37894BE01D2D5B4800965312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37894BE41D2D5B4800965312 /* PBXTargetDependency */,
+			);
+			name = EdgyboyTests;
+			productName = EdgyboyTests;
+			productReference = 37894BE21D2D5B4800965312 /* EdgyboyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37894BEC1D2D5B4800965312 /* EdgyboyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37894BFC1D2D5B4800965312 /* Build configuration list for PBXNativeTarget "EdgyboyUITests" */;
+			buildPhases = (
+				37894BE91D2D5B4800965312 /* Sources */,
+				37894BEA1D2D5B4800965312 /* Frameworks */,
+				37894BEB1D2D5B4800965312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37894BEF1D2D5B4800965312 /* PBXTargetDependency */,
+			);
+			name = EdgyboyUITests;
+			productName = EdgyboyUITests;
+			productReference = 37894BED1D2D5B4800965312 /* EdgyboyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37894BC21D2D5B4800965312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MakeSchool;
+				TargetAttributes = {
+					37894BC91D2D5B4800965312 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					37894BE11D2D5B4800965312 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 37894BC91D2D5B4800965312;
+					};
+					37894BEC1D2D5B4800965312 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 37894BC91D2D5B4800965312;
+					};
+				};
+			};
+			buildConfigurationList = 37894BC51D2D5B4800965312 /* Build configuration list for PBXProject "Edgyboy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37894BC11D2D5B4800965312;
+			productRefGroup = 37894BCB1D2D5B4800965312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37894BC91D2D5B4800965312 /* Edgyboy */,
+				37894BE11D2D5B4800965312 /* EdgyboyTests */,
+				37894BEC1D2D5B4800965312 /* EdgyboyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37894BC81D2D5B4800965312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37894BD01D2D5B4800965312 /* GameScene.sks in Resources */,
+				37894BDC1D2D5B4800965312 /* LaunchScreen.storyboard in Resources */,
+				37894BD91D2D5B4800965312 /* Assets.xcassets in Resources */,
+				37894BD71D2D5B4800965312 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37894BE01D2D5B4800965312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37894BEB1D2D5B4800965312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37894BC61D2D5B4800965312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37894BD21D2D5B4800965312 /* GameScene.swift in Sources */,
+				37894BD41D2D5B4800965312 /* GameViewController.swift in Sources */,
+				37894BCE1D2D5B4800965312 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37894BDE1D2D5B4800965312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37894BE71D2D5B4800965312 /* EdgyboyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37894BE91D2D5B4800965312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37894BF21D2D5B4800965312 /* EdgyboyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37894BE41D2D5B4800965312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37894BC91D2D5B4800965312 /* Edgyboy */;
+			targetProxy = 37894BE31D2D5B4800965312 /* PBXContainerItemProxy */;
+		};
+		37894BEF1D2D5B4800965312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37894BC91D2D5B4800965312 /* Edgyboy */;
+			targetProxy = 37894BEE1D2D5B4800965312 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37894BD51D2D5B4800965312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37894BD61D2D5B4800965312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37894BDA1D2D5B4800965312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37894BDB1D2D5B4800965312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37894BF41D2D5B4800965312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37894BF51D2D5B4800965312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37894BF71D2D5B4800965312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Edgyboy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.Edgyboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37894BF81D2D5B4800965312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Edgyboy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.Edgyboy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37894BFA1D2D5B4800965312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = EdgyboyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.EdgyboyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edgyboy.app/Edgyboy";
+			};
+			name = Debug;
+		};
+		37894BFB1D2D5B4800965312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdgyboyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.EdgyboyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edgyboy.app/Edgyboy";
+			};
+			name = Release;
+		};
+		37894BFD1D2D5B4800965312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = EdgyboyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.EdgyboyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Edgyboy;
+			};
+			name = Debug;
+		};
+		37894BFE1D2D5B4800965312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EdgyboyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.EdgyboyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Edgyboy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37894BC51D2D5B4800965312 /* Build configuration list for PBXProject "Edgyboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37894BF41D2D5B4800965312 /* Debug */,
+				37894BF51D2D5B4800965312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37894BF61D2D5B4800965312 /* Build configuration list for PBXNativeTarget "Edgyboy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37894BF71D2D5B4800965312 /* Debug */,
+				37894BF81D2D5B4800965312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37894BF91D2D5B4800965312 /* Build configuration list for PBXNativeTarget "EdgyboyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37894BFA1D2D5B4800965312 /* Debug */,
+				37894BFB1D2D5B4800965312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37894BFC1D2D5B4800965312 /* Build configuration list for PBXNativeTarget "EdgyboyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37894BFD1D2D5B4800965312 /* Debug */,
+				37894BFE1D2D5B4800965312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37894BC21D2D5B4800965312 /* Project object */;
+}
